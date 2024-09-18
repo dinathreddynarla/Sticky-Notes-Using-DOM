@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Notes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <span><i class="fas fa-sticky-note" style="color: #36dd08;"></i></span>
+        <h1 class="css">Sticky Notes</h1>
+        <button id="addnote"><i class="fa-solid fa-square-plus"></i></button>
+    </header>
+    <div class="main-container"></div>
+    <div class="note-container">
+        <textarea name="textinp" id="inpbox"></textarea>
+        <div>
+            <button id="submitnote"><i class="fa-solid fa-circle-check"></i></button>
+            <button id="closenote"><i class="fa-solid fa-circle-xmark"></i></button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
